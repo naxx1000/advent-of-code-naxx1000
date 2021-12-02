@@ -1,7 +1,6 @@
-import day1.SonarSweep
-import day1.day1Data
+import day2.Dive
 
 fun main(args: Array<String>) {
 
-    println(SonarSweep.numberOfIncreasingDepthMeasurements(day1Data))
+    println(Dive.getDepthByHorizontalPositionWithAim())
 }
