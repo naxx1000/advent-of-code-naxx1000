@@ -16,4 +16,9 @@ object InputReader {
         }
         return subCommands
     }
+
+    fun getDay3Input(): List<String>? {
+        val text = object {}.javaClass.getResource("/day3input_test.txt")?.readText()
+        return text?.split(System.lineSeparator())
+    }
 }
